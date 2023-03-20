@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.etch-a-sketch-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    width: 92vw;
+    padding: 18px;
+    border: 2px solid black;
+}
+
+.etch-a-sketch-grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.etch-a-sketch-grid div {
+    flex: 0 0 auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between
+}
+
+.button-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+
+.button-bar button,
+.button-bar input {
+    flex: 0 1 fit-content;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.color-black,
+.color-white,
+.color-red,
+.color-green,
+.color-blue,
+.color-yellow {
+    width: 50px;
+    height: 50px;
+}
+
+.color-black {
+    background-color: black;
+}
+
+.color-white {
+    background-color: white;
+}
+
+.color-red {
+    background-color: red;
+}
+
+.color-green {
+    background-color: green;
+}
+
+.color-blue {
+    background-color: blue;
+}
+
+.color-yellow {
+    background-color: yellow;
+}
