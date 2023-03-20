@@ -31,7 +31,13 @@ drawGrid(Number(heightField.value), Number(widthField.value), Number(blockField.
 
 // Listeners
 
-createGrid.addEventListener('click', function () { drawGrid(Number(heightField.value), Number(widthField.value), Number(blockField.value), borderField.checked) })
+createGrid.addEventListener('click', function () {
+    drawGrid(
+        Number(heightField.value),
+        Number(widthField.value),
+        Number(blockField.value),
+        borderField.checked)
+})
 page.addEventListener('mousedown', (function () {
     isMouseDown = true
     console.log(isMouseDown)
